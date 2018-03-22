@@ -1,0 +1,196 @@
+{
+  "lists": [
+    {
+      "id": 20,
+      "name": "Einkaufsliste 1",
+      "shoppingItems": []
+    },
+    {
+      "id": 30,
+      "name": "Einkaufsliste 2",
+      "shoppingItems": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "fruits_vegetables",
+      "name": "Obst & Gemüse",
+      "shoppingItems": [
+        {
+          "quantity": 1,
+          "article": {
+            "id": "f1",
+            "name": "Ananas",
+            "img": "img/ananas_sw.png",
+            "category": "fruits_vegetables"
+          }
+        },
+        {
+          "quantity": 3,
+          "article": {
+            "id": "f2",
+            "name": "Karotten",
+            "img": "img/karotten_sw.png",
+            "category": "fruits_vegetables"
+          }
+        },
+        {
+          "quantity": 3,
+          "article": {
+            "id": "f3",
+            "name": "Tomaten",
+            "img": "img/tomaten_sw.png",
+            "category": "fruits_vegetables"
+          }
+        },
+        {
+          "quantity": 2,
+          "article": {
+            "id": "f4",
+            "name": "Zucchini",
+            "img": "img/zucchini_sw.png",
+            "category": "fruits_vegetables"
+          }
+        },
+        {
+          "quantity": 1,
+          "article": {
+            "id": "f5",
+            "name": "Kartoffeln",
+            "img": "img/kartoffeln_sw.png",
+            "category": "fruits_vegetables"
+          }
+        },
+        {
+          "quantity": 1,
+          "article": {
+            "id": "f6",
+            "name": "Spinat",
+            "img": "img/spinat_sw.png",
+            "category": "fruits_vegetables"
+          }
+        },
+        {
+          "quantity": 1,
+          "article": {
+            "id": "f7",
+            "name": "Pilze",
+            "img": "img/pilze_sw.png",
+            "category": "fruits_vegetables"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sweets",
+      "name": "Süßigkeiten",
+      "shoppingItems": [
+        {
+          "quantity": 1,
+          "article": {
+            "id": "s1",
+            "name": "Schokolade",
+            "img": "img/schokolade_sw.png",
+            "category": "sweets"
+          }
+        }
+      ]
+    },
+    {
+      "id": "milk_cheese",
+      "name": "Milch & Käse",
+      "shoppingItems": [
+        {
+          "quantity": 3,
+          "article": {
+            "id": "m1",
+            "name": "Milch",
+            "img": "img/milch_sw.png",
+            "category": "milk_cheese"
+          }
+        },
+        {
+          "quantity": 2,
+          "article": {
+            "id": "m2",
+            "name": "Joghurt",
+            "img": "img/joghurt_sw.png",
+            "category": "milk_cheese"
+          }
+        },
+        {
+          "quantity": 1,
+          "article": {
+            "id": "m3",
+            "name": "Butter",
+            "img": "img/butter_sw.png",
+            "category": "milk_cheese"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bread",
+      "name": "Brot & Gebäck",
+      "shoppingItems": [
+        {
+          "quantity": 1,
+          "article": {
+            "id": "b1",
+            "name": "Brot",
+            "img": "img/brot_sw.png",
+            "category": "bread"
+          }
+        },
+        {
+          "quantity": 1,
+          "article": {
+            "id": "b2",
+            "name": "Semmerl",
+            "img": "img/broetchen_sw.png",
+            "category": "bread"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grain",
+      "name": "Getreideprodukte",
+      "shoppingItems": [
+        {
+          "quantity": 1,
+          "article": {
+            "id": "c1",
+            "name": "Mehl",
+            "img": "img/mehl_sw.png",
+            "category": "grain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meat",
+      "name": "Fisch & Fleisch",
+      "shoppingItems": [
+        {
+          "quantity": 2,
+          "article": {
+            "id": "mf1",
+            "name": "Schinken",
+            "img": "img/schinken_sw.png",
+            "category": "meat"
+          }
+        },
+        {
+          "quantity": 1,
+          "article": {
+            "id": "mf2",
+            "name": "Fisch",
+            "img": "img/fisch_sw.png",
+            "category": "meat"
+          }
+        }
+      ]
+    }
+  ]
+}

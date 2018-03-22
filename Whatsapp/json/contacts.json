@@ -1,0 +1,350 @@
+{
+  "personnelId" : 0,
+  "persons" : [
+    {
+      "id":1,
+      "name" : "Susi Musterfrau",
+      "img" : "img/contacts/contact1.jpg",
+      "online": "16:48",
+      "messages" : [
+        {
+          "text" : "Hallo! Was schenken wir unseren Eltern zu Weihnachten?",
+          "time" : "16:01",
+          "senderId" : 0
+        },
+        {
+          "text" : "Hallo! Puh gute Frage, hast du eine Idee?",
+          "time" : "16:20",
+          "senderId" : 1
+        },
+        {
+          "text" : "Nein :/",
+          "time" : "16:24",
+          "senderId" : 0
+        },
+        {
+          "text" : "Sollen wir diese Woche mal gemeinsam einkaufen fahren und Geschenke kaufen?",
+          "time" : "16:27",
+          "senderId" : 1
+        },
+        {
+          "text" : "Das ist eine gute Idee! :)",
+          "time" : "16:31",
+          "senderId" : 0
+        },
+        {
+          "text" : "Wann gehts bei dir am besten?",
+          "time" : "16:40",
+          "senderId" : 1
+        },
+        {
+          "text" : "Gleich morgen Nachmittag? Oder wie schauts bei dir aus?",
+          "time" : "16:43",
+          "senderId" : 0
+        },
+        {
+          "text" : "Morgen ist es blöd bei mir, weil ich am Mittwoch noch Schularbeit habe und echt noch viel lernen muss :/",
+          "time" : "16:44",
+          "senderId" : 1
+        },
+        {
+          "text" : "OK :/ Wie wär es dann mit Mittwoch nach der Schularbeit?",
+          "time" : "16:47",
+          "senderId" : 0
+        },
+        {
+          "text" : "Ja super! Dann treffen wir uns einfach in Linz oder?",
+          "time" : "16:48",
+          "senderId" : 1
+        },
+        {
+          "text" : "Jap, ich bin um circa 15:00 auf der Landstraße :)",
+          "time" : "16:50",
+          "senderId" : 0
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name" : "Mama",
+      "img" : "img/contacts/contact2.jpg",
+      "online": "17:21",
+      "messages" : [
+        {
+          "text" : "Hallo! Was tut sich in Hagenberg?",
+          "time" : "16:45",
+          "senderId" : 2
+        },
+        {
+          "text" : "Hallo Mama :) Wie immer sehr viel Stress mit den Projekten, aber sonst ist alles super!",
+          "time" : "16:48",
+          "senderId" : 0
+        },
+        {
+          "text" : "Ja ich weiß, aber nur noch ein paar Tage und dann sind eh Weihnachtsferien. Das musst halt noch durchhalten.",
+          "time" : "16:55",
+          "senderId" : 2
+        },
+        {
+          "text" : "Hast eh recht! Aber bin echt froh, wenn ich mal wieder nach Hause komme!",
+          "time" : "17:01",
+          "senderId" : 0
+        },
+        {
+          "text" : "Wir freuen uns auch alles schon, wenn du wieder heim kommst :*",
+          "time" : "17:06",
+          "senderId" : 2
+        },
+        {
+          "text" : "Kannst du mich dann eventuell in Linz abholen?",
+          "time" : "17:15",
+          "senderId" : 0
+        },
+        {
+          "text" : "Sicher, ruf einfach an wenn du weißt wenn du zum holen bist.",
+          "time" : "17:19",
+          "senderId" : 2
+        },
+        {
+          "text" : "Okay super danke! Dann bis Freitag :)",
+          "time" : "17:20",
+          "senderId" : 0,
+          "type" : true
+        },
+        {
+          "text" : "Bis Freitag :)",
+          "time" : "17:21",
+          "senderId" : 2
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name" : "Papa",
+      "img" : "img/contacts/contact3.jpg",
+      "online": "17:31",
+      "messages" : [
+        {
+          "text" : "Hallo Papa, kannst du mir kurz helfen?",
+          "time" : "16:54",
+          "senderId" : 0
+        },
+        {
+          "text" : "Bei was den?",
+          "time" : "16:16",
+          "senderId" : 3
+        },
+        {
+          "text" : "Habe ein paar Fragen zu einer Hausübung..",
+          "time" : "17:18",
+          "senderId" : 0
+        },
+        {
+          "text" : "Kann ich dich kurz anrufen? Dann kann ich dir genaueres erklären.",
+          "time" : "17:18",
+          "senderId" : 0
+        },
+        {
+          "text" : "Puh, bin zur Zeit noch in der Arbeit.",
+          "time" : "17:18",
+          "senderId" : 3
+        },
+        {
+          "text" : "Wann gehts bei dir dann?",
+          "time" : "17:19",
+          "senderId" : 0
+        },
+        {
+          "text" : "Kanns noch nicht genau sagen. Bin noch bei einem Kunden und danach muss ich noch heimfahren.",
+          "time" : "17:25",
+          "senderId" : 3
+        },
+        {
+          "text" : "Okay! Ja sonst meld du dich einfach, wenn du zu Hause bist?",
+          "time" : "17:28",
+          "senderId" : 0
+        },
+        {
+          "text" : "Ja so können wir es machen.",
+          "time" : "17:30",
+          "senderId" : 3
+        },
+        {
+          "text" : "Super, danke!",
+          "time" : "17:30",
+          "senderId" : 0
+        },
+        {
+          "text" : "Kein Problem ;)",
+          "time" : "17:31",
+          "senderId" : 3
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name" : "Anna Maier",
+      "img" : "img/contacts/contact4.jpg",
+      "online": "17:40",
+      "messages" : [
+        {
+          "text" : "Haee! Gehen wir am Wochenende fort?",
+          "time" : "17:24",
+          "senderId" : 4
+        },
+        {
+          "text" : "Ja wäre ich voll dabei!",
+          "time" : "17:38",
+          "senderId" : 0
+        },
+        {
+          "text" : "Schreiben wir uns morgen zu zusammen? Habe grad voll den Stess. :/",
+          "time" : "17:40",
+          "senderId" : 4
+        },
+        {
+          "text" : "Ja klar!",
+          "time" : "17:41",
+          "senderId" : 0
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name" : "Franz Huber",
+      "img" : "img/contacts/contact5.jpg",
+      "online": "10:01",
+      "messages" : [
+        {
+          "text" : "Haee! Gehen wir am Wochenende fort?",
+          "time" : "17:24",
+          "senderId" : 5
+        },
+        {
+          "text" : "Ja wäre ich voll dabei!",
+          "time" : "17:38",
+          "senderId" : 0
+        },
+        {
+          "text" : "Schreiben wir uns morgen zu zusammen? Habe grad voll den Stess. :/",
+          "time" : "17:40",
+          "senderId" : 5
+        },
+        {
+          "text" : "Ja klar!",
+          "time" : "17:41",
+          "senderId" : 0
+        }
+      ]
+    }],
+  "groups": [
+    {
+      "id":6,
+      "name" : "Family",
+      "img" : "img/contacts/contact6.jpg",
+      "members" : [0,1,2,3],
+      "messages" : [
+        {
+          "text" : "Hallo!",
+          "senderId" : 0,
+          "time" : "17:30"
+        },
+        {
+          "text" : "Hallo! Alles gut bei euch?",
+          "time" : "17:32",
+          "senderId" : 2
+        },
+        {
+          "text" : "Ja sowieso!!",
+          "time" : "17:33",
+          "senderId" : 0
+        },
+        {
+          "text" : "Hast du was gekocht, Mama?",
+          "time" : "17:32",
+          "senderId" : 1
+        },
+        {
+
+          "text" : "Nein, bin noch in der Arbeit.",
+          "time" : "17:33",
+          "senderId" : 2
+        },
+        {
+          "text" : "Hm, schade! Wann kommst du nach Hause, Papa?",
+          "time" : "17:35",
+          "senderId" : 1
+        },
+        {
+          "text" : "Ich schätze so um 7 Uhr, aber melde mich noch!",
+          "time" : "17:44",
+          "senderId" : 3
+        }
+      ]
+    },
+    {
+      "id":7,
+      "name" : "Geschwister",
+      "img" : "img/contacts/contact7.jpg",
+      "members" : [0,1,4,5],
+      "messages" : [
+        {
+          "text" : "Hallo! Wie gehts euch?",
+          "time" : "17:40",
+          "senderId" : 1
+        },
+        {
+          "text" : "Hallo! Super und dir?",
+          "name" : "Marina Pühringer",
+          "time" : "17:41",
+          "senderId" : 4
+        },
+        {
+          "text" : "Mir gehts auch gut! Wann machen wir mal wieder was?",
+          "time" : "17:43",
+          "senderId" : 5
+        },
+        {
+          "text" : "Kommts morgen auf einen Kaffee vorbei?",
+          "time" : "17:44",
+          "senderId" : 1
+        },
+        {
+          "text" : "Kaffee hört sich super an! :)",
+          "time" : "17:47",
+          "senderId" : 5
+        },
+        {
+          "text" : "Hallo :) Mir gehts auch gut. Kaffee trinken geht bei mir morgen leider nicht, weil bin noch bis Freitag in Hagenberg :(",
+          "time" : "17:48",
+          "senderId" : 0
+        },
+        {
+          "text" : "Maah schade, Sophie! Ich komme vorbei! :)",
+          "time" : "17:50",
+          "senderId" : 4
+        },
+        {
+          "text" : "Ja, aber am Freitag können ma gerne was machen!!",
+          "time" : "17:53",
+          "senderId" : 0
+        },
+        {
+          "text" : "Passt super, ich bin ab halb 4 zu Hause, dann könnts jederzeit kommen :)",
+          "time" : "17:53",
+          "senderId" : 1
+        },
+        {
+          "text" : "Ich kann ein paar Kekse mitnehmen. Mama und ich haben gestern ein bisschen gebacken :)",
+          "time" : "17:54",
+          "senderId" : 4
+        },
+        {
+          "text" : "Mmh, lecker :) Freu mich!",
+          "time" : "17:54",
+          "senderId" : 5
+        }
+      ]
+    }
+  ]
+}

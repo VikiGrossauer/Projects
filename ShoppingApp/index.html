@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List mit MVC</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div id="shoppinglist">
+                <div class="header">
+                    <input id="newList" type="text" placeholder="Gib einen Namen ein">
+                    <i id="cancel" class="glyphicon glyphicon-remove"></i>
+                    <i id="addBtn" class="glyphicon glyphicon-plus"></i>
+                    <h2 id="listheading">Listen</h2>
+                    <i id="showInput" class="glyphicon glyphicon-plus"></i>
+                </div>
+                <ul class="list">
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="header right">
+                <i class="glyphicon glyphicon-search"></i>
+                <i class="glyphicon glyphicon-menu-hamburger"></i>
+                <img src="img/profile.png" alt="profilbild">
+            </div>
+            <div id="listbody">
+                <div class="listheader">
+                </div>
+                <div id="listitems">
+                    <div class="items_container">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div id="categorylist">
+                <div class="header">
+                    <h2>Kategorien</h2>
+                </div>
+                <ul class="list">
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="header">
+                <input placeholder="Was willst du Einkaufen?" type="text"/>
+            </div>
+            <div id="categoryitems">
+                <div class="items_container">
+                    <div class="shoppinglist_item new">
+                        <i class="glyphicon glyphicon-plus"></i>
+                        <p>Neuen<br/> Artikel<br/> hinzufügen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="producthover_container">
+        <div id='producthover'>
+            <div id='producthover_icon'>
+                <i class='glyphicon glyphicon-plus'></i>
+            </div>
+            <div id='producthover_detail'>
+                <span>Details <br> hinzufügen</span>
+            </div>
+        </div>
+    </div>
+    <div id="producthover_container_rem">
+        <div id='producthover_rem'>
+            <div id='producthover_icon_rem'>
+                <i class='glyphicon glyphicon-minus'></i>
+            </div>
+            <div id='producthover_detail_rem'>
+                <span>Details <br> hinzufügen</span>
+            </div>
+        </div>
+    </div>
+    <div id="showDetailInput">
+        <input id='addDetails' type='number' placeholder='1'>
+        <i id="cancelInput" class="glyphicon glyphicon-remove"></i>
+        <i id='ok' class='glyphicon glyphicon-ok'></i>
+    </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
