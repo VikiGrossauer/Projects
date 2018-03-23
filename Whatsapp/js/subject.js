@@ -1,43 +1,42 @@
-//BASISKLASSE
+/**
+ * Created by P23460 on 12.12.2016.
+ */
 
 export default class Subject {
-    constructor(){
+    constructor() {
         //assoziativer Array mit Array
         this.observers = [];
     }
 
-
-    //standardmäßig zwei Methoden
-
-    //anmelden--> für observer immer object und function
-    subscribe(eventName, listenerObj, callbackFct){
-        if(this.observers[eventName]==undefined){
-            this.observers[eventName] = [];
+    subscribe(topic, listenerObj, callbackFct) {
+        if (this.observers[topic] == undefined) {
+            this.observers[topic] = new Array();
         }
-        this.observers[eventName].push({
-            obj:listenerObj,
-            fct: callbackFct
+        this.observers[topic].push({
+            obj: listenerObj,
+            fct: callbackFct,
         });
     }
 
-    unsubscribe(eventName, listenerObj){
-        if(this.observers[eventName]){
-           let observersForEvent = this.observers[eventName];
-            for(let i=0; i<observersForEvent.length;i++){
-                if(observersForEvent[i].obj == listenerObj){
-                    observersForEvent.splice(i,1);
-                    break;
+    unsubscribe(topic, listenerObj) {
+        if(this.observers[topic]!=undefined){
+            let observersForTopic = this.observers[topic];
+            for (let i=0; i < observersForTopic.length;i++){
+                if(observersForTopic[i].obj === listenerObj){
+                    console.log("removing observer");
+                    observersForTopic.splice(i,1);
+                    return;
                 }
             }
         }
-
     }
 
-    //Name ändern - Event feuern - jedesmal wenn sich Vorname ändert
-    notifyObserver(eventName, param){
-        let observersForEvent = this.observers[eventName];
-        for(let observer of observersForEvent){
-            observer.fct.call(observer.obj,param) //anstatt von this-Obj
+    notifyObservers(topic, param) {
+        let observersForTopic = this.observers[topic];
+        if(observersForTopic) {
+            for (let observer of observersForTopic) {
+                observer.fct.call(observer.obj, param);
+            }
         }
     }
 }

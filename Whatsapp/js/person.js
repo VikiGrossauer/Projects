@@ -10,9 +10,4 @@ export default class Person extends Contact {
     addGroup(group) {
         this.groups.push(group);
     }
-
-    printHeader(){
-        super.printHeader();
-        $(".chatname").append("<p>Zuletzt online "+this.online+"</p>");
-    }
 }

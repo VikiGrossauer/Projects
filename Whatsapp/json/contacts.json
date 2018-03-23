@@ -213,7 +213,7 @@
       "id":5,
       "name" : "Franz Huber",
       "img" : "img/contacts/contact5.jpg",
-      "online": "10:01",
+      "online": "zuletzt online 10:01",
       "messages" : [
         {
           "text" : "Haee! Gehen wir am Wochenende fort?",
